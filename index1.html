@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Lukmaan Restaurant — Menu</title>
+  <meta name="description" content="Digital menu for Lukmaan Restaurant, Stone Town, Zanzibar. Swahili cuisine, grill, pizza, smoothies and coffee." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Cinzel:wght@600;700;800&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style1.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand-logo">
+        <img src="images/logo.png" alt="Lukmaan - Swahili Cuisine Zanzibar" />
+      </div>
+      <a href="index.html" class="home-button" aria-label="Go back to home page">Home</a>
+    </div>
+  </header>
+
+  <nav class="category-nav" aria-label="Menu categories">
+    <div class="category-nav-scroll" id="category-nav" role="tablist"></div>
+  </nav>
+
+  <div class="menu-notice-wrap">
+    <p class="menu-notice">Prices are in Tanzanian Shillings. Please ask our team about today's availability.</p>
+  </div>
+
+  <main id="menu-content" class="menu-content">
+    <!-- Category sections are rendered here by script1.js from MENU_DATA -->
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-copyright">
+      © <span id="year"></span> Lukmaan Restaurant, Stone Town, Zanzibar.
+      All prices in Tanzanian Shillings.
+    </p>
+  </footer>
+
+  <script src="script1.js"></script>
+</body>
+</html>
