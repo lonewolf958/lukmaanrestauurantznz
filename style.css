@@ -8,14 +8,14 @@
 /* Colours taken from the printed menu and logo: black, blood red, flame
    red and bright yellow-orange, with white text. */
 :root {
-  --black:         #021A1F;
-  --page:          #06303A;
-  --charcoal:      #0B4755;
-  --red-deep:      #0B5563;
-  --red:           #13808C;
-  --red-bright:    #E8553D;
-  --yellow-light:  #FFD98A;
-  --yellow:        #FFB02E;
+  --black:         #1A0B26;
+  --page:          #2A1240;
+  --charcoal:      #3A1A55;
+  --red-deep:      #4B2370;
+  --red:           #6A32A0;
+  --red-bright:    #F0568A;
+  --yellow-light:  #FFE9A6;
+  --yellow:        #F7C948;
   --white:         #FFFFFF;
   --logo-bg:       #E4E4EC;
 
@@ -140,7 +140,7 @@ a { color: inherit; }
   flex-wrap: wrap;
   gap: 8px 18px;
   padding-top: 14px;
-  border-top: 1px solid rgba(255, 176, 46, 0.3);
+  border-top: 1px solid rgba(247, 201, 72, 0.3);
 }
 
 .header-strip-item {
@@ -250,7 +250,7 @@ a { color: inherit; }
   color: var(--yellow-light);
   font-weight: 600;
   text-decoration: none;
-  border-bottom: 1px solid rgba(255, 217, 138, 0.5);
+  border-bottom: 1px solid rgba(255, 233, 166, 0.5);
   padding-bottom: 2px;
   transition: gap var(--transition-fast), color var(--transition-fast);
 }
@@ -269,7 +269,7 @@ a { color: inherit; }
   aspect-ratio: 4 / 5;
   border-radius: 200px 200px 24px 24px;
   overflow: hidden;
-  border: 6px solid rgba(255, 217, 138, 0.35);
+  border: 6px solid rgba(255, 233, 166, 0.35);
   box-shadow: var(--shadow-soft);
   position: relative;
   background: var(--red);
@@ -289,7 +289,7 @@ a { color: inherit; }
   padding: 1rem;
   color: var(--yellow-light);
   background:
-    repeating-linear-gradient(45deg, rgba(255, 217, 138, 0.07) 0 12px, transparent 12px 24px),
+    repeating-linear-gradient(45deg, rgba(255, 233, 166, 0.07) 0 12px, transparent 12px 24px),
     var(--red);
   font-family: var(--font-body);
 }
@@ -319,7 +319,7 @@ a { color: inherit; }
   align-items: center;
   text-align: center;
   background: var(--charcoal);
-  border: 1px solid rgba(255, 176, 46, 0.25);
+  border: 1px solid rgba(247, 201, 72, 0.25);
   border-radius: var(--radius-lg);
   padding: 2.4rem 1.75rem;
   min-height: 220px;
