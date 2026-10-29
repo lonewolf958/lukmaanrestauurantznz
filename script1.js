@@ -49,7 +49,7 @@ const MENU_DATA = [
     items: [
       m("Calamari", 5000),
       m("Octopus", 10000),
-      m("King Fish", 10000),
+      m("King Fish", 15000),
       m("Whole Fish", 10000),
       m("Jumbo Prawns", 15000),
       m("Tiger Prawns", 5000),
@@ -116,7 +116,7 @@ const MENU_DATA = [
     items: [
       m("Octopus in Coconut", 7000),
       m("Prawns in Coconut", 7000),
-      m("Fried Fish", 3000),
+      m("Fried Fish", 4000),
       m("Boiled Anchovies", 2000),
       m("Chukuchuku na Samaki", 5000),
       m("Fish Parker", 12000)
@@ -166,9 +166,9 @@ const MENU_DATA = [
     id: "snacks",
     name: "Zanzibar Snacks",
     items: [
-      m("Andazi Doughnut", 700),
+      m("Andazi Doughnut", 1000)
       m("Chila Rice Pancake", 1000),
-      m("Rice Vitumbua", 700),
+      m("Rice Vitumbua", 1000),
       m("Visheti Doughnuts", 500),
       m("Flavor Cakes", "3,000 - 4,000")
     ]
@@ -272,7 +272,7 @@ const MENU_DATA = [
       m("Americano", 5000),
       m("Iced Coffee", 5000),
       m("Stressachino", 4000),
-      m("Espresso", 3000),
+      m("Espresso", 4000),
       m("Hot Chocolate", 5000),
       m("Affogato", 5000),
       m("Cinnamon Coffee", 5000),
