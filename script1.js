@@ -137,12 +137,17 @@ const MENU_DATA = [
     name: "Sides & Salads",
     items: [
       { name: "Spinach Sautee", price: 3000 },
+      { name: "Brocoli", price: 3000 },
+      { name: "Beef Sautee", price: 3000 },
       { name: "Sautee Veg", price: 5000 },
       { name: "Avocado Salad", price: 5000 },
       { name: "Veggie Pasta", price: 6000 },
       { name: "Potato Sautee", price: 5000 },
+      { name: "Muhogo wa Kuchemsha", price: 1000 },
+      { name: "Kiazi Kitamu", price: 1000 },
       { name: "Samosa Veg", price: 1500 },
-      { name: "Samosa Chicken / Nyama", price: 1500 }
+      { name: "Samosa Beef", price: 1500 },
+      { name: "Samosa Chicken", price: 1500 }
     ]
   },
 
@@ -306,7 +311,7 @@ const MENU_DATA = [
       { name: "Spice Tea", price: 3000 },
       { name: "Ginger Tea", price: 2000 },
       { name: "Masala Tea", price: 4000 },
-      { name: "Wheat Porridge", price: 1000 },
+      { name: "Wheat Porridge", price: 2000 },
       { name: "Brewed Coffee", price: 3000 },
       { name: "Lavazza Espresso", price: 4000 },
       { name: "Lavazza Cappuccino", price: 5000 }
