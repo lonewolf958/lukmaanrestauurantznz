@@ -409,14 +409,20 @@ a { color: inherit; }
 
 .about-image-frame {
   position: relative;
-  aspect-ratio: 1080 / 1044;
+  aspect-ratio: 1280 / 962;    /* matches the restaurant photo */
   width: 100%;
   border-radius: var(--radius-lg);
   overflow: hidden;
-  background: var(--red);
+  background: var(--charcoal);
   box-shadow: var(--shadow-soft);
 }
-.about-image-frame img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.about-image-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;           /* fills the frame, no empty bars */
+  object-position: center 55%; /* keeps the signs and seating area in view */
+  display: block;
+}
 
 .about-text { max-width: var(--max-width); margin: 0 auto; }
 .about-text p {
@@ -496,7 +502,8 @@ a { color: inherit; }
   .hero-text { text-align: left; }
   .hero-copy { margin-left: 0; }
 
-  .about-inner { grid-template-columns: 0.9fr 1.1fr; }
+  /* Wider column for the landscape About photo */
+  .about-inner { grid-template-columns: 1.1fr 0.9fr; }
 
   .featured-track { grid-auto-columns: 27%; }
 
